@@ -6,8 +6,8 @@ body {
     background-color:rgb(255, 255, 255); 
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
     }
 #title {
     font-size: 60px;
@@ -31,7 +31,7 @@ body {
     font-weight: 800;
     font-size: 32px;
     text-align: left;
-    margin-left: 0.5cm;
+   
 }
 
 .list {
@@ -41,13 +41,12 @@ body {
     text-align: justify;
     font-weight: 400;
     list-style:inside;
-    }
+     }
 p {
     font-size: 28px;
     color:black;
     text-align: justify;
     font-weight: 400;
-    margin-left: 0.5cm;
     line-height: auto;
     }
 .foodimg {
