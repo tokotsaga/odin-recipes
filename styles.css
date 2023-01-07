@@ -3,53 +3,55 @@ body {
     font-weight: 800;
     font-size: large;
     text-align: center;
-    background-color:white; 
+    background-color:rgb(255, 255, 255); 
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    }
+#title {
+    font-size: 60px;
+    color:orange;
+    text-align: center;
 }
+    
 .page.title {
     font-size: 60px;
-    color: black;
+    color: orange;
     text-align: center;
     font-weight: 800;
     }
-
-.list {
-    text-align: left;
-    font: size 20px;px;
-    color:black;
-    text-align: left;
-    text-align: justify;
-    font-weight: 300;
-    list-style:inside;
-}
-p {
-    font: size 20px;px;
-    color:black;
-    text-align: left;
-    text-align: justify;
-    font-weight: 400;
-}
 .main.list { 
     list-style: none;
     text-align: center;
 }
+.main.main.title,
 .secondary.title{
-    color: black;
+    color: orange;
     font-weight: 800;
     font-size: 32px;
     text-align: left;
     margin-left: 0.5cm;
-
 }
 
-.main.title {
+.list {
+   
+    font-size: 28px;
     color:black;
-    font-weight: 900;
-    font: size 48px;
-    text-align: left;
-    margin-left: 1cm;
+    text-align: justify;
+    font-weight: 400;
+    list-style:inside;
     }
+p {
+    font-size: 28px;
+    color:black;
+    text-align: justify;
+    font-weight: 400;
+    margin-left: 0.5cm;
+    line-height: auto;
+    }
+.foodimg {
+    width: 800px;
+    height: auto;
+}
 
