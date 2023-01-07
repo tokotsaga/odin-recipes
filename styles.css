@@ -7,11 +7,8 @@ body {
     font-size: large;
     text-align: center;
     background-color:rgb(255, 255, 255); 
-    margin-top: 0.5cm;
-    margin-bottom: 0.5cm;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    }
+    margin:0.5cm;
+}
 #title {
     font-size: 60px;
     color:orange;
@@ -30,7 +27,9 @@ body {
 .main.list { 
     list-style: none;
     text-align: center;
-}
+    margin: 0cm;
+    border: 0cm;
+  }
 .main.main.title,
 .secondary.title{
     color: orange;
@@ -44,14 +43,12 @@ body {
    
     font-size: 28px;
     color:black;
-    text-align: justify;
+    text-align: center;
     font-weight: 400;
     list-style:inside;
     border: 2px solid orange;
     padding: 2px;
-    
-
-     }
+         }
 .para1,
 .para2 {
     font-size: 28px;
@@ -76,6 +73,14 @@ body {
     height: auto;
     padding: 2px;
     border: 2px solid orange;
-    
+    }
+.mainimg {
+    width: 1400px;
+    height: auto;
+    align-self: auto;
+    padding: 0cm;
+    border: 0cm;
+    margin: 0cm;
+
 }
 
