@@ -24,11 +24,15 @@ body {
     margin: 20px;
     border:2px solid orange;
     }
-.main.list { 
+.recipes{ 
     list-style: none;
     text-align: center;
     margin: 0cm;
     border: 0cm;
+    background-color: orange;
+    padding:20px;
+    margin: 10px auto;
+    
   }
 .main.main.title,
 .secondary.title{
@@ -74,13 +78,19 @@ body {
     padding: 2px;
     border: 2px solid orange;
     }
-.mainimg {
-    width: 1400px;
-    height: auto;
-    align-self: auto;
-    padding: 0cm;
-    border: 0cm;
-    margin: 0cm;
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    padding: 20px;
+    margin: auto;
+    
+
 
 }
+    
+    
+
+
 
